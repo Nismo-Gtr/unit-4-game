@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jewel Game Nick Cowan</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+    <div id="randomNumber" class="col-md-4"></div>
+    <div id="scoreBoard" class="col-md-2">
+        <div>Wins: <span id="wins"></span></div>
+        <div>Losses: <span id="losses"></span></div>
+        <div class="col-md-6"></div>
+    </div>
+    </div>
+    <div class="row">
+    <button id="redJewel" class="col-md-2"><img src="./assets/images/002-luxury.svg" alt=""></button>
+    <button id="blueJewel" class="col-md-2"><img src="./assets/images/004-diamond.svg" alt=""></button>
+    <button id="yellowJewel" class="col-md-2"><img src="./assets/images/003-fashion.svg" alt=""></button>
+    <button id="greenJewel" class="col-md-2"><img src="./assets/images/001-gemstone.svg" alt=""></button>
+    <div class="col-md-4"></div>
+    </div>
+    <div class="row">
+    <div id="userScoreHeader" class="col-md-5">Your total score is: </div>
+    <div class="col-md-7"></div>
+    <div id="userScoreBoard" class="col-md-5"><span id="userScore"></span></div>
+    <div class="col-md-7"></div>
+    </div>
+    </div>
+</body>
+<footer>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="./assets/javascript/game.js"></script>
+</footer>
+</html>

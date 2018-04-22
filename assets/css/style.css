@@ -1,0 +1,48 @@
+
+.container {
+    background: url("../../assets/images/weather.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+button {
+    background: #fff;  
+    height: auto;
+    margin: 20px 5px 10px 5px;
+    padding: 10px;
+}
+
+
+#randomNumber {
+    color: #6600CC;
+    background: #00CC66;
+    height: 150px;
+    font-size: 48px;
+    margin-top: 20px;
+    float: left;
+}
+
+#scoreBoard {
+    background: #33ffff;
+    height: 150px;
+    font-size: 28px;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+}
+
+
+#userScoreHeader {
+    color: #fff;
+    background: #009999;
+    height: 50px;
+    font-size: 24px;
+}
+
+#userScoreBoard {
+    color: #fff;
+    background: #009999;
+    height: 150px;
+    font-size: 48px;
+    margin-top: 10px;
+}
